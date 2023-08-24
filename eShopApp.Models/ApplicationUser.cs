@@ -12,14 +12,14 @@ namespace eShopApp.Models
 	public class ApplicationUser:IdentityUser<int>
 	{
 		[Required]
-		public string Name { get; set; }
+		public string? Name { get; set; }
 		[Required]
-		public string Address { get; set; }
+		public string? Address { get; set; }
 		[Required]
-		public string City { get; set; }
+		public string? City { get; set; }
 		[Required]
-		public string State { get; set; }
+		public string? State { get; set; }
 		[Required]
-		public string PostalCode { get; set; }
+		public string? PostalCode { get; set; }
 	}
 }
